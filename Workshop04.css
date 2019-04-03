@@ -1,0 +1,109 @@
+.logo{
+    width: 30px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.navbar-default .navbar-brand{
+    color: black;
+    float: right;
+}
+.bg-img{
+    background-image: url(../Workshop4_30.03.2019/mountains.jpg);
+    height: 80vh;
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(24, 141, 177, 0.5);
+    height: 100%;
+}
+.btn-transparent{
+    background-color: transparent;
+    border: 1px solid rgb(90, 90, 90);
+    color: white;
+}
+.left-of-poster{
+    margin-top: 50px;
+    color: white;
+}
+.left-of-poster h1{
+    font-size: 50px;
+}
+.bg-black{
+    background-color: black;
+    padding: 30px;
+}
+.submit-btn{
+    background-color: rgb(24, 141, 177);
+    color: white;
+    border: none;
+}
+.div-white{
+    padding: 30px;
+}
+.space-border{
+    border: 2px solid  rgb(24, 141, 177);
+    border-radius: 2px;
+    height: 80%;
+}
+.space-border h3{
+    color: rgb(24, 141, 177);
+}
+.space-background{
+    border: 2px solid  rgb(24, 141, 177);
+    background-color: rgb(24, 141, 177);
+    border-radius: 4px;
+    color: white;
+}
+.titles h2{
+    color:  rgb(24, 141, 177);
+}
+.titles hr{
+    height: 1px;
+    border: none;
+    background-color: rgb(201, 196, 196);
+}
+.bg-col{
+    background-color: rgba(221, 219, 219, 0.445);
+}
+/* .imgs{
+    height:90px;
+    border-radius: 50%;
+} */
+.forma{
+    margin-top: 30px;
+}
+.authors img{
+    border-radius: 50%;
+    height: 90px;
+}
+.authors i{
+    font-size: 15px;
+    color: rgb(24, 141, 177);
+    padding:0px 12px 8%;
+}
+.thumbnail>img {
+    margin-top:-46px;
+}
+.bold{
+    font-weight: bold;
+}
+.input-group{
+    margin-top: 15px;
+}
+.logos{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 130px;
+}
+.btn{
+    background-color: rgb(24, 141, 177);
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.footer{
+    background-color: rgb(24, 141, 177);
+    color: white;
+    padding: 40px;
+}
