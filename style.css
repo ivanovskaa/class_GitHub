@@ -1,109 +1,139 @@
-.logo{
-    width: 30px;
-    display: inline-block;
-    margin-top: 10px;
+.bg-grey{
+    background-color: rgb(44, 43, 43);
+    padding: 12px 30px;
 }
-.navbar-default .navbar-brand{
-    color: black;
-    float: right;
-}
-.bg-img{
-    background-image: url(../Workshop4_30.03.2019/mountains.jpg);
-    height: 80vh;
-    background-size: cover;
-}
-.overlay{
-    background-color: rgba(24, 141, 177, 0.5);
-    height: 100%;
-}
-.btn-transparent{
+.navbar-inverse .navbar-nav>.active>a{
     background-color: transparent;
-    border: 1px solid rgb(90, 90, 90);
-    color: white;
+	border-left: 1.5px solid white;
 }
-.left-of-poster{
-    margin-top: 50px;
-    color: white;
+.navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: transparent;
+	color:white;
 }
-.left-of-poster h1{
-    font-size: 50px;
+.navbar-inverse .navbar-toggle {
+border: none;
 }
-.bg-black{
-    background-color: black;
-    padding: 30px;
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+    background-color: transparent;
 }
-.submit-btn{
-    background-color: rgb(24, 141, 177);
-    color: white;
-    border: none;
+.section_1{
+    height: 70vh;
 }
-.div-white{
-    padding: 30px;
+.carousel-indicators li{
+    width: 25px;
+    height: 4px;
 }
-.space-border{
-    border: 2px solid  rgb(24, 141, 177);
-    border-radius: 2px;
-    height: 80%;
+.carousel-indicators li.active{
+    width: 25px;
+    height: 4px;
 }
-.space-border h3{
-    color: rgb(24, 141, 177);
+.carousel-caption{
+    top:20vh;
 }
-.space-background{
-    border: 2px solid  rgb(24, 141, 177);
-    background-color: rgb(24, 141, 177);
-    border-radius: 4px;
-    color: white;
+.section_2{
+    padding: 25px 80px;
 }
-.titles h2{
-    color:  rgb(24, 141, 177);
+.icon{
+    font-size: 25px;
 }
-.titles hr{
-    height: 1px;
-    border: none;
-    background-color: rgb(201, 196, 196);
+.img-laptop{
+    height: 350px;
+    width: 550px;
 }
-.bg-col{
-    background-color: rgba(221, 219, 219, 0.445);
+.lorem{
+    padding-left: 100px;
+    margin-top: 72px;
 }
-/* .imgs{
-    height:90px;
-    border-radius: 50%;
-} */
-.forma{
-    margin-top: 30px;
-}
-.authors img{
-    border-radius: 50%;
-    height: 90px;
-}
-.authors i{
+.lorem p{
     font-size: 15px;
-    color: rgb(24, 141, 177);
-    padding:0px 12px 8%;
 }
-.thumbnail>img {
-    margin-top:-46px;
+.lorem button{
+    border: 1px solid red;
+    color: red;
+    background-color: transparent;
 }
-.bold{
-    font-weight: bold;
+body{
+    background-image: url(../Предизвик/Images/lights.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
 }
-.input-group{
-    margin-top: 15px;
+
+.white-bg{
+    background-color: white;
 }
-.logos{
-    height: 100px;
-    width: 100px;
-    margin-left: 50px;
-    margin-top: 130px;
-}
-.btn{
-    background-color: rgb(24, 141, 177);
+.transparent-bg{
+    padding: 30px;
     color: white;
-    margin-top: 15px;
-    margin-bottom: 30px;
+}
+.overlay-bg{
+    background-color: rgba(32, 32, 31,0.9);
+    height: 100%;
+    color: white;
+}
+.play{
+    height: 70px;
+    font-size: 25px;
+}
+.media-img{
+    background-image: url("../Предизвик/Images/media.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.padding{
+padding: 25px 0;
+}
+.margin{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.text-white{
+    color: white;
 }
 .footer{
-    background-color: rgb(24, 141, 177);
+    background-color: black;
     color: white;
-    padding: 40px;
+    padding: 20px 0;
 }
+@media screen and (max-width:1024px){
+/* dali ima potreba? */
+}
+
+@media screen and (max-width:768px){
+    .lorem{
+    padding-left: 24px;
+    margin-top: 8px;
+}
+.img-laptop{
+    height: 252px;
+    width: 343px;
+}
+.tab-768-row{
+width: 100%;
+}
+}
+@media screen and (max-width:425px){
+.section_1{
+    height: 50vh;
+}
+.hidden-1{
+    display: none;
+}
+.inline{
+    display:inline;   
+}
+.section_2{
+    padding: 25px;
+}
+.padd{
+    padding: 5px;
+}
+.form-end{
+    padding: 10px 15px;
+}
+.btn-center{
+margin-left: 155px;
+}
+}
+
+
+

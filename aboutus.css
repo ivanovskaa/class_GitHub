@@ -1,0 +1,152 @@
+.bg-grey{
+    background-color: rgb(44, 43, 43);
+    padding: 12px 30px;
+}
+.navbar-inverse .navbar-nav>.active>a{
+    background-color: transparent;
+	border-left: 1.5px solid white;
+}
+.navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: transparent;
+	color:white;
+}
+.navbar-inverse .navbar-toggle {
+border: none;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+    background-color: transparent;
+}
+body{
+    background-image: url(../Предизвик/Images/image1.jpg);
+    background-attachment: fixed;
+    /* background-size: 100%; */
+    background-size: auto;
+}
+.transparent-bg{
+    background-color: transparent;
+    padding: 30px;
+    color: white;
+    height: 60vh;
+    padding-top: 130px;
+}
+.white-bg{
+    background-color: white;
+}
+.img-radius{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-top: -55px;
+}
+.padding-radius{
+    padding-top: 45px;
+    padding-right: 20px;
+    width: 600px;
+}
+.red-bg{
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+}
+.margin{
+    margin-top: 40px;
+    margin-bottom: 20px;;
+}
+.margin-2{
+    margin-bottom: 40px;
+}
+.icon{
+    margin-top: 10px;
+    font-size: 35px;
+    color: white;
+}
+.item{
+    height: 50px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+}
+.text-white{
+    color: white;
+}
+.carousel-caption{
+    top:-20px;
+}
+.sm-grey{
+    font-size: 12px;
+    color: grey;
+}
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+@media screen and (max-width:1024px){
+.text-radius{
+width: 70%;
+margin-left: 20px;
+}
+.padding-radius{
+ width: 80%;
+ font-size: 12px;
+}
+.img-radius{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: -40px;
+}
+.pos{
+    width: 20%;
+}
+.white-bg{
+    padding: 0;
+}
+}
+@media screen and (max-width: 768px){
+.text-radius{
+width: 70%;
+margin: 0px 10px;
+padding: 0px;
+}
+.white-bg{
+    padding: 0;
+}
+.padding-radius{
+    padding-top: 20px;
+}
+}
+@media screen and (max-width:425px){
+.transparent-bg{
+    padding-top: 65px;
+    font-size: 12px;
+}
+.hidden-1{
+    display: none;
+}
+.text-radius{
+    width: 100%;
+    padding-right: 20px;
+}
+.padding-radius{
+    width: 100%;
+    font-size: 12px;
+}
+.mrg{
+   margin: 15px 0; 
+}
+.mrg-1{
+    margin-top: 15px;
+}
+.carousel-control.left, .carousel-control.right{
+    display: none;
+}
+.item{
+    font-size: 12px;
+    height: 11vh;
+}
+}

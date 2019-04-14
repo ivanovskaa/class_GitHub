@@ -1,0 +1,85 @@
+.bg-grey{
+    background-color: rgb(44, 43, 43);
+    padding: 12px 30px;
+}
+.navbar-inverse .navbar-nav>.active>a{
+    background-color: transparent;
+	border-left: 1.5px solid white;
+}
+.navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: transparent;
+	color:white;
+}
+.navbar-inverse .navbar-toggle {
+border: none;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+    background-color: transparent;
+}
+body{
+    background-image: url(../Предизвик/Images/image1.jpg);
+    background-attachment: fixed;
+    /* background-size: 100%; */
+    background-size: auto;
+}
+.transparent-bg{
+    background-color: transparent;
+    padding: 30px;
+    color: white;
+    height: 60vh;
+    padding-top: 130px;
+} 
+.white-bg{
+    background-color: white;
+}
+.text-white{
+    color: white;
+}
+.hr2{
+    height: 1px;
+    border: none;
+    background-color: rgb(27, 27, 27);
+}
+.margin-top{
+    margin-top: 25px;
+}
+.element-style {
+    margin-bottom: 20px;
+    padding: 0;
+}
+.submit-button{
+    border: 1px solid red;
+    color: red;
+    background-color: transparent;
+}
+.img-radius{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.staff{
+    background-color:transparent;
+    padding: 0;
+    border: none;
+}
+.thumbnail .caption{
+    color: white;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+@media screen and (max-width:768px){
+    .pdg-left{
+        padding-left: 0px;
+}
+@media screen and (max-width:425px){
+    .transparent-bg{
+        padding-top: 65px;
+        font-size: 12px;
+    }
+    .mrg-bottom{
+    margin-bottom: 15px;
+}
+}
